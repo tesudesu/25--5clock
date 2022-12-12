@@ -1,13 +1,71 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    background-color: #B8E6DC;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+#title {
+    font: 28px Verdana, sans-serif;
+    color: #252E2C;
+    text-align: center;
+    margin-top: 5%;
 }
+
+#timer-part {
+    box-sizing: border-box;
+    background-color: #9DC4BC;
+    border: 5px solid #8DB0A8;
+    border-radius: 50%;
+    margin: auto;
+    width: 300px;
+    height: 300px;
+    text-align: center;
+    padding: 15px;
+}
+
+#start-stop, #reset{
+    margin: 20px 0;
+}
+
+#timer-label {
+    box-sizing: border-box;
+    font: 25px Verdana, sans-serif;
+    color: #252E2C;
+    padding: 5px 0;
+}
+
+#time-left {
+    box-sizing: border-box;
+    font: 50px monospace;
+    padding: 5px 0;
+}
+
+#controls-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 20px;
+}
+
+#break-label, #session-label {
+    font: 18px Verdana, sans-serif;
+    color: #252E2C;
+}
+
+#break-controls, #session-controls {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5px;
+    font: 25px Verdana, sans-serif;
+    color: #252E2C;
+}
+
+button {
+    color: white;
+    font: 20px Courier New, monospace;
+    border: none;
+    border-radius: 4px;
+    background-color: #74918B;
+    cursor: pointer;
+}
+
+
